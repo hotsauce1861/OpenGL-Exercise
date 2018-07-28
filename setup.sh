@@ -31,7 +31,7 @@ function install_glfw()
   	cd $GLFW && mkdir ${GLFW}-build && cd ${GLFW}-build
 	cmake ../
 	make && make install
-		
+	rm ${GLFW}.zip	
 
 }
 
